@@ -258,28 +258,22 @@ button {
 }
 
 .card-1-content-text {
-    padding: 1em;
-    line-height: 1.6em;
+    display: flex;
+    flex-direction: column;
+    padding-right: 2em;
+    line-height: 3.0em;
 }
 
 /*Card 2 Styling*/
 
-.card-2-content {
-    flex: 0 0 60%;
-    justify-content: space-between;
-}
-
-
 .card-2 img{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    flex: 0 0 40%;
     padding: 0.4em;
-    object-fit: cover;
 }
 
 .card-2-content-text {
-    padding: 1em;
+    padding-left: 1.2em;
     line-height: 1.6em;
 }
 
@@ -329,6 +323,10 @@ button {
     object-fit: cover;
 }
 
+.card-3 h1 {
+    padding: 1em 0 0 1.5em;
+}
+
 footer {
     display: grid;
     padding: 2em;
@@ -376,6 +374,18 @@ footer {
       background-color:#f2f2f2;
       border-radius: 2%;
       margin-right: 5em;
+    }
+
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card-2 {
+        flex: 0 1 calc(33.33% - 1em);
+        margin-bottom: 1em;
     }
 
     .popular {
