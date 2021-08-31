@@ -1,111 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/img/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/img/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Reservia</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrapper">
-        <!--Navbar-->
-        <div class="navbar">           
-            <div class="logo">
-                <a href="#">
-                <img src="css/img/logo/Reservia@3x.png" alt="" class="logo">
-                </a>
-            </div>
-            <div class="signup">
-                <a href="#" class="signup">Sign up</a>
-            </div>
+      <!--Navbar-->
+      <div class="navbar">
+        <div class="logo">
+          <a href="#">
+            <img src="css/img/logo/Reservia@3x.png" alt="" class="logo" />
+          </a>
+        </div>
+        <div class="signup">
+          <a href="#" class="signup">Sign up</a>
+        </div>
 
-            <div class="tabs tab">
-                    <input type="radio" name="tabs" checked="checked" id="tab1" />
-                    <label for="tab1">Accommodations</label>
-            </div>
-            <div class="tabs tab">
-                <input type="radio" name="tabs" id="tab2" />
-                <label for="tab2">Activities</label> 
-            </div>  
+        <div class="tabs tab">
+          <input type="radio" name="tabs" checked="checked" id="tab1" />
+          <label for="tab1">Accommodations</label>
         </div>
-  
-        
-        <!--Section A-->
-        <section class="search">
-            <div class="container">
-                <div class="search-section">
-                    <h2 class="head"> Find a place for your dream vacation</h2>
-                    <p>Downtown or in nature</p>
-                    <div class="input-group">
-                        <div class="input-group-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="input-group-area">
-                            <input type='text' placeholder='Marseille, France'>
-                        </div>
-                        <div class="input-group-icon-submit">
-                            <span class="icon"><button type="submit" class="btn-mobile"><i class="fa fa-search"></i></button></span>
-                            <span class="text"><button type="submit" class="btn-desktop">Search</button></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Section B Filter-->
-        <section class="filters">
-            <div class="filter-flex-container">
-            <div class="filter-heading">
-                <h3>Filters</h3>
-            </div>
-            <div class="filter-container">
-                    <div class="item-a filter-item ">
-                        <div class="filter-group">
-                            <i class="fas fa-money-bill-wave"></i>
-                            <p>Low Cost</p>
-                        </div>
-                    </div>
-                    <div class="item-b filter-item ">
-                        <div class="filter-group">
-                                <i class="fas fa-heart"></i>
-                                <p>Romantic</p>
-                        </div>
-                    </div>
-                    <div class="item-c filter-item ">
-                        <div class="filter-group">
-                            <i class="fas fa-child"></i>
-                            <p>Family-friendly</p>
-                        </div>
-                    </div>
-                    <div class="item-d filter-item ">
-                        <div class="filter-group">
-                            <i class="fas fa-dog"></i>
-                            <p>Pets allowed</p>
-                        </div>
-                    </div>
-            </div>
+        <div class="tabs tab">
+          <input type="radio" name="tabs" id="tab2" />
+          <label for="tab2">Activities</label>
         </div>
-            <div class="filter-info">
-                <div class="icon-wrapper">
-                     <i class="fas fa-info"></i>
-                </div>
-                <p>More than 500 accommodations are available in this city</p>
+      </div>
+
+      <!--Section A-->
+      <section class="search">
+        <div class="container">
+          <div class="search-section">
+            <h2 class="head">Find a place for your dream vacation</h2>
+            <p>Downtown or in nature</p>
+            <div class="input-group">
+              <div class="input-group-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="input-group-area">
+                <input type="text" placeholder="Marseille, France" />
+              </div>
+              <div class="input-group-icon-submit">
+                <span class="icon"
+                  ><button type="submit" class="btn-mobile">
+                    <i class="fa fa-search"></i></button
+                ></span>
+                <span class="text"
+                  ><button type="submit" class="btn-desktop">
+                    Search
+                  </button></span
+                >
+              </div>
             </div>
-        </section>
-        <!--Section C-->
-        <section class="features-section">
-            <div class="popular">
-                <div class="popular-header">
-                    <h2>Most Popular</h2>
-                    <i class="fas fa-chart-line"></i>
-                </div>
-                
-                <div class="cards">
-                    <!--<a href="#">
+          </div>
+        </div>
+      </section>
+      <!--Section B Filter-->
+      <section class="filters">
+        <div class="filter-flex-container">
+          <div class="filter-heading">
+            <h3>Filters</h3>
+          </div>
+          <div class="filter-container">
+            <div class="item-a filter-item">
+              <div class="filter-group">
+                <i class="fas fa-money-bill-wave"></i>
+                <p>Low Cost</p>
+              </div>
+            </div>
+            <div class="item-b filter-item">
+              <div class="filter-group">
+                <i class="fas fa-heart"></i>
+                <p>Romantic</p>
+              </div>
+            </div>
+            <div class="item-c filter-item">
+              <div class="filter-group">
+                <i class="fas fa-child"></i>
+                <p>Family-friendly</p>
+              </div>
+            </div>
+            <div class="item-d filter-item">
+              <div class="filter-group">
+                <i class="fas fa-dog"></i>
+                <p>Pets allowed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="filter-info">
+          <div class="icon-wrapper">
+            <i class="fas fa-info"></i>
+          </div>
+          <p>More than 500 accommodations are available in this city</p>
+        </div>
+      </section>
+      <!--Section C-->
+      <section class="features-section">
+        <div class="popular">
+          <div class="popular-header">
+            <h2>Most Popular</h2>
+            <i class="fas fa-chart-line"></i>
+          </div>
+
+          <div class="cards">
+            <!--<a href="#">
                         <div class="card-a">
                             <div class="image-container">
                                 <img src="css/img/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
@@ -128,269 +140,312 @@
                         </div>
                     </a>-->
 
-                    <a href="#" class="card card-1">
-                        <div class="card-1-content">
-                            <img src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-                            <div class="card-1-content-text">
-                                <h1>Morning Sun Hotel</h1>
-                                <p>Night starting at <strong>e125</strong></p>
-                                <div class="card-rating">
-                                    <p class="rating">
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>  
-
-                    <a href="#" class="card card-1">
-                        <div class="card-1-content">
-                            <img src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-                            <div class="card-1-content-text">
-                                <h1>Morning Sun Hotel</h1>
-                                <p>Night starting at <strong>e125</strong></p>
-                                <div class="card-rating">
-                                    <p class="rating">
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a> 
-
-                    <a href="#" class="card card-1">
-                        <div class="card-1-content">
-                            <img src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-                            <div class="card-1-content-text">
-                                <h1>Morning Sun Hotel</h1>
-                                <p>Night starting at <strong>e125</strong></p>
-                                <div class="card-rating">
-                                    <p class="rating">
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a> 
+            <a href="#" class="card card-1">
+              <div class="card-1-content">
+                <img
+                  src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt=""
+                />
+                <div class="card-1-content-text">
+                  <h1>Morning Sun Hotel</h1>
+                  <p>Night starting at <strong>e125</strong></p>
+                  <div class="card-rating">
+                    <p class="rating">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                    </p>
+                  </div>
                 </div>
-            
-            </div>
+              </div>
+            </a>
 
-            <div id="accommodations" class="accommodations">
-                <h2>Accommodations in Marseille</h2>
-                <div class="cards">
-                    <a href="#" class="card card-2">
-                        <div class="card-2-content">
-                            <img src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-                            <div class="card-2-content-text">
-                                <h1>Morning Sun Hotel</h1>
-                                <p>Night starting at <strong>e125</strong></p>
-                                <div class="card-rating">
-                                    <p class="rating">
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a> 
-
-                    <a href="#" class="card card-2">
-                        <div class="card-2-content">
-                            <img src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-                            <div class="card-2-content-text">
-                                <h1>Morning Sun Hotel</h1>
-                                <p>Night starting at <strong>e125</strong></p>
-                                <div class="card-rating">
-                                    <p class="rating">
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a> 
-
-                    <a href="#" class="card card-2">
-                        <div class="card-2-content">
-                            <img src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-                            <div class="card-2-content-text">
-                                <h1>Morning Sun Hotel</h1>
-                                <p>Night starting at <strong>e125</strong></p>
-                                <div class="card-rating">
-                                    <p class="rating">
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a> 
-
-                    <a href="#" class="card card-2">
-                        <div class="card-2-content">
-                            <img src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-                            <div class="card-2-content-text">
-                                <h1>Morning Sun Hotel</h1>
-                                <p>Night starting at <strong>e125</strong></p>
-                                <div class="card-rating">
-                                    <p class="rating">
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a> 
-
-                    <a href="#" class="card card-2">
-                        <div class="card-2-content">
-                            <img src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-                            <div class="card-2-content-text">
-                                <h1>Morning Sun Hotel</h1>
-                                <p>Night starting at <strong>e125</strong></p>
-                                <div class="card-rating">
-                                    <p class="rating">
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a> 
-
-                    <a href="#" class="card card-2">
-                        <div class="card-2-content">
-                            <img src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-                            <div class="card-2-content-text">
-                                <h1>Morning Sun Hotel</h1>
-                                <p>Night starting at <strong>e125</strong></p>
-                                <div class="card-rating">
-                                    <p class="rating">
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                        <i class="fa fa-star checked"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a> 
+            <a href="#" class="card card-1">
+              <div class="card-1-content">
+                <img
+                  src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt=""
+                />
+                <div class="card-1-content-text">
+                  <h1>Morning Sun Hotel</h1>
+                  <p>Night starting at <strong>e125</strong></p>
+                  <div class="card-rating">
+                    <p class="rating">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                    </p>
+                  </div>
                 </div>
-                
-                <button class="show-more">Show More</button>
-            </div>    
-        </section>
-        <!--Section D-->
-        <section class="activity-section">
-                
-            <h3>Activities in Marseille</h3>
-               
-            <div class="activity">
-                <div class="item-1">
-                    <a href="#" class="card card-3">
-                        <div class="thumb">
-                            <img src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-                        </div>
-                        <h1>Old Post</h1>
-                    </a>
-                </div>
-        
-                <div class="item-2">
-                    <a href="#" class="card card-3">
-                        <div class="thumb">
-                            <img src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-                        </div>
-                        <h1>Old Post</h1>
-                    </a>
-                </div>
-        
-                <div class="item-3">
-                    <a href="#" class="card card-3">
-                        <div class="thumb">
-                            <img src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-                        </div>
-                        <h1>Old Post</h1>
-                    </a>
-                </div>
-        
-                <div class="item-4">
-                    <a href="#" class="card card-3">
-                        <div class="thumb">
-                            <img src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-                        </div>
-                        <h1>Old Post</h1>
-                    </a>
-                </div>
-        
-                <div class="item-5">
-                    <a href="#" class="card card-3">
-                        <div class="thumb">
-                            <img src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-                        </div>
-                        <h1>Old Post</h1>
-                    </a>
-                </div>
-        
-                <div class="item-6">
-                    <a href="#" class="card card-3">
-                        <div class="thumb">
-                            <img src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-                        </div>
-                        <h1>Old Post</h1>
-                    </a>
-                </div>
-            </div>
-        </section>
-                
-        <footer>
-            <div class="footer-column">
-                <h3>About</h3>
-                <p>Site Map</p>
-                <p>General Terms and Conditions</p>
-                <p>Data and Privacy</p>
-            </div>
+              </div>
+            </a>
 
-            <div class="footer-column">
-                <h3>Our accommodations</h3>
-                <p>Quality Assessment</p>
-                <p>You have a hotel?</p>
-            </div>
+            <a href="#" class="card card-1">
+              <div class="card-1-content">
+                <img
+                  src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt=""
+                />
+                <div class="card-1-content-text">
+                  <h1>Morning Sun Hotel</h1>
+                  <p>Night starting at <strong>e125</strong></p>
+                  <div class="card-rating">
+                    <p class="rating">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
 
-            <div class="footer-column">
-                <h3>Assistance</h3>
-                <p>Help Desk</p>
-                <p>Contact Us</p>
-            </div>
-        </footer>
+        <div id="accommodations" class="accommodations">
+          <h2>Accommodations in Marseille</h2>
+          <div class="cards">
+            <a href="#" class="card card-2">
+              <div class="card-2-content">
+                <img
+                  src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt=""
+                />
+                <div class="card-2-content-text">
+                  <h1>Morning Sun Hotel</h1>
+                  <p>Night starting at <strong>e125</strong></p>
+                  <div class="card-rating">
+                    <p class="rating">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="card card-2">
+              <div class="card-2-content">
+                <img
+                  src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt=""
+                />
+                <div class="card-2-content-text">
+                  <h1>Morning Sun Hotel</h1>
+                  <p>Night starting at <strong>e125</strong></p>
+                  <div class="card-rating">
+                    <p class="rating">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="card card-2">
+              <div class="card-2-content">
+                <img
+                  src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt=""
+                />
+                <div class="card-2-content-text">
+                  <h1>Morning Sun Hotel</h1>
+                  <p>Night starting at <strong>e125</strong></p>
+                  <div class="card-rating">
+                    <p class="rating">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="card card-2">
+              <div class="card-2-content">
+                <img
+                  src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt=""
+                />
+                <div class="card-2-content-text">
+                  <h1>Morning Sun Hotel</h1>
+                  <p>Night starting at <strong>e125</strong></p>
+                  <div class="card-rating">
+                    <p class="rating">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="card card-2">
+              <div class="card-2-content">
+                <img
+                  src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt=""
+                />
+                <div class="card-2-content-text">
+                  <h1>Morning Sun Hotel</h1>
+                  <p>Night starting at <strong>e125</strong></p>
+                  <div class="card-rating">
+                    <p class="rating">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="card card-2">
+              <div class="card-2-content">
+                <img
+                  src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt=""
+                />
+                <div class="card-2-content-text">
+                  <h1>Morning Sun Hotel</h1>
+                  <p>Night starting at <strong>e125</strong></p>
+                  <div class="card-rating">
+                    <p class="rating">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <button class="show-more">Show More</button>
+        </div>
+      </section>
+      <!--Section D-->
+      <section class="activity-section">
+        <h3>Activities in Marseille</h3>
+
+        <div class="activity">
+          <div class="item-1">
+            <a href="#" class="card card-3">
+              <div class="thumb">
+                <img
+                  src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <h1>Old Post</h1>
+            </a>
+          </div>
+
+          <div class="item-2">
+            <a href="#" class="card card-3">
+              <div class="thumb">
+                <img
+                  src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <h1>Old Post</h1>
+            </a>
+          </div>
+
+          <div class="item-3">
+            <a href="#" class="card card-3">
+              <div class="thumb">
+                <img
+                  src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <h1>Old Post</h1>
+            </a>
+          </div>
+
+          <div class="item-4">
+            <a href="#" class="card card-3">
+              <div class="thumb">
+                <img
+                  src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <h1>Old Post</h1>
+            </a>
+          </div>
+
+          <div class="item-5">
+            <a href="#" class="card card-3">
+              <div class="thumb">
+                <img
+                  src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <h1>Old Post</h1>
+            </a>
+          </div>
+
+          <div class="item-6">
+            <a href="#" class="card card-3">
+              <div class="thumb">
+                <img
+                  src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <h1>Old Post</h1>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-column">
+          <h3>About</h3>
+          <p>Site Map</p>
+          <p>General Terms and Conditions</p>
+          <p>Data and Privacy</p>
+        </div>
+
+        <div class="footer-column">
+          <h3>Our accommodations</h3>
+          <p>Quality Assessment</p>
+          <p>You have a hotel?</p>
+        </div>
+
+        <div class="footer-column">
+          <h3>Assistance</h3>
+          <p>Help Desk</p>
+          <p>Contact Us</p>
+        </div>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
