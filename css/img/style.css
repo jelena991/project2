@@ -44,7 +44,6 @@ a, a:visited {
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    color: #444;
     position: relative;
     top: 0;
     transition: all .1s ease-in;
@@ -55,18 +54,17 @@ a, a:visited {
     box-shadow: var(--shadow);
 }
   
-.card img{
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    width: 100%;
-    height: 50%;
-    background-size:cover;
-    object-fit: cover;
+.card h1 {
+    font-size: 15px;
 }
 
-.card h1 {
-    padding: 0.5em;
-    font-size: 20px;
+.card p {
+    font-weight: 100;
+}
+
+.card-rating {
+    color: #0065fc;
+    font-size: 11px;
 }
 
 /* Navigation Styling*/
@@ -244,42 +242,45 @@ button {
     padding-bottom: 2em;
 }
 
-/*Card A Styling
-
-.card-a {
+.card-1-content {
     display: flex;
-    background-color: white;
-    box-shadow: var(--shadow);
-    border-radius: 30px;
-    margin-bottom: 10px;
-    padding: 3px;
+    flex: 0 0 60%;
+    justify-content: space-between;
 }
-  
-.card-a .image-container {
-    flex: 3;
-}
-  
-.card-a img {
+
+
+.card-1 img{
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    height: 125px;
+    flex: 0 0 40%;
+    padding: 0.4em;
     object-fit: cover;
 }
-.card-a-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0.8em;
+
+.card-1-content-text {
+    padding: 1em;
+    line-height: 1.6em;
+}
+
+/*Card 2 Styling*/
+
+.card-2-content {
+    flex: 0 0 60%;
     justify-content: space-between;
-    flex: 4;
 }
-  
-.card-a-content h5 {
-    font-size: 16px;
+
+
+.card-2 img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    flex: 0 0 40%;
+    padding: 0.4em;
+    object-fit: cover;
 }
-  
-.card-a-content p {
-    font-weight: 100;
+
+.card-2-content-text {
+    padding: 1em;
+    line-height: 1.6em;
 }
 
 /*Features Section - Accommodations*/
@@ -291,18 +292,6 @@ button {
 .accommodations-section {
     margin: 0;
     padding: 1.5em; 
-}
-
-
-
-.card-content{
-    padding: 0.5em; 
-    line-height: 1.6;
-}
-
-.card-rating {
-    color: #0065fc;
-    font-size: 11px;
 }
 
 .show-more {
@@ -328,8 +317,16 @@ button {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-gap: 20px;
-    
+    grid-gap: 20px; 
+}
+
+.card-3 img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    object-fit: cover;
 }
 
 footer {
@@ -385,21 +382,6 @@ footer {
         border-radius: 2%;
     }
 
-    .cards {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .card {
-        flex: 0 1 calc(33.33% - 1em);
-        margin-bottom: 1em;
-    }
-
-    .card-1 {
-        flex-direction: column;
-    }
-
     .activity {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, auto-flow);
@@ -419,15 +401,7 @@ footer {
         grid-row: 1/ span 2;
     }
 
-    .card img{
-        padding-bottom: 2%;
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
-        width: 100%;
-        height: 100%;
-        background-size:cover;
-        object-fit: cover;
-    }
+   
 
     footer {
         display: grid;
