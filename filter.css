@@ -29,6 +29,7 @@ h3.headline {
   padding-right: 15px;
   border: 1px solid lightgrey;
   line-height: 50px;
+  font-weight: 700;
 }
 
 .filter-group i {
