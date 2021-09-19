@@ -1,0 +1,94 @@
+:root {
+  --blue: #0065fc;
+  --ligtblue: #deebff;
+  --grey: #f2f2f2;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+.flexRow {
+  flex-direction: row;
+}
+
+/*General Card Styling*/
+.card {
+  min-height: 100%;
+  background: white;
+  box-shadow: var(--shadow);
+  border-radius: 25px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.1s ease-in;
+}
+
+.card:hover {
+  top: -2px;
+  box-shadow: var(--shadow);
+}
+
+.card h1 {
+  font-size: 13px;
+  height: 43px;
+}
+
+.card p {
+  font-weight: 100;
+  flex-grow: 1;
+}
+
+.card-rating {
+  color: #0065fc;
+  font-size: 11px;
+}
+
+@media (max-width: 480px) {
+  .hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 1025px) {
+  .hiddenMobile {
+    display: none;
+  }
+}

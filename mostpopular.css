@@ -1,0 +1,39 @@
+
+/*Features Section - Most Popular*/
+
+.features-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .popular {
+    background-color: var(--grey);
+    padding: 0.5em;
+  }
+  .popular-header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-bottom: 2em;
+  }
+  
+  .card-1-content {
+    display: flex;
+  }
+  
+  .card-1 img {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    object-fit: cover;
+    height: 133px;
+    width: 126px;
+    padding: 5px;
+  }
+  
+  .card-1-content-text {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }

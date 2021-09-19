@@ -1,0 +1,67 @@
+/*Filter Section Styling*/
+
+h3.headline {
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.filter-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.filter-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-item {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.filter-group {
+  display: flex;
+  border-radius: 26px;
+  padding-right: 15px;
+  border: 1px solid lightgrey;
+  line-height: 50px;
+}
+
+.filter-group i {
+  background: #dfecffee;
+  color: #0065fc;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.filter-item :hover {
+  opacity: 0.5;
+}
+
+/*Filter Info Styling*/
+.filter-info {
+  display: flex;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+.info-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgrey;
+  color: #0065fc;
+  border-radius: 50%;
+  width: 25px;
+  height: 20px;
+  font-size: 0.7em;
+  margin-right: 10px;
+}
