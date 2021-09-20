@@ -1,0 +1,32 @@
+.activities-section {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.activities-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+.activities-header {
+  padding: 25px 5px 30px 5px;
+  font-size: 20px;
+}
+
+.card-3 {
+  flex-basis: 100%;
+  flex-wrap: wrap;
+}
+
+.card-3 img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  object-fit: cover;
+  height: 150px;
+  width: 100%;
+}
+
+.card-3 .card-text {
+  margin: 10px;
+}

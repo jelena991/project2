@@ -1,0 +1,35 @@
+.accommodations-section {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.accommodations-header {
+  padding: 25px 5px 30px 5px;
+  font-size: 20px;
+}
+
+.card-2 {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.card-2 img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding: 2%;
+  object-fit: cover;
+  height: 150px;
+  width: 100%;
+}
+
+.card-2 .card-text {
+  padding: 0 0 7px 18px;
+}
+
+.show-more {
+  width: 135px; 
+  height: 10px;
+  background: none;
+  color: black;
+  font-size: 20px;
+}
+

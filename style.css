@@ -35,6 +35,10 @@ a:visited {
   padding-right: 20px;
 }
 
+.grey-background {
+  background-color: #f2f2f2;
+}
+
 .flexColumn {
   flex-direction: column;
 }
@@ -44,25 +48,26 @@ a:visited {
 }
 
 /*General Card Styling*/
+
 .card {
-  min-height: 100%;
-  background: white;
-  box-shadow: var(--shadow);
+  height: 100%;
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  background-color: white;
   border-radius: 25px;
   margin-bottom: 20px;
   display: flex;
-  flex-direction: column;
   transition: all 0.1s ease-in;
 }
 
-.card:hover {
-  top: -2px;
-  box-shadow: var(--shadow);
+.card-text {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
 }
 
 .card h1 {
-  font-size: 13px;
-  height: 43px;
+  font-size: 15px;
+  height: 20px;
 }
 
 .card p {
