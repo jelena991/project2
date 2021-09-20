@@ -1,4 +1,139 @@
-@media (min-width: 960px) {
+/*Navigation for devices under 600px*/
+@media (max-width: 600px) {
+  .hiddenDesktop {
+    display: none;
+  }
+
+  .hidden {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .hiddenDesktop {
+    display: none;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .popular-cards, .accommodation-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card {
+    flex: 0 1 50%;
+  }
+
+  .activities-cards {
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .hidden {
+    display: contents;
+  }
+
+  .hiddenDesktop {
+    display: contents;
+  }
+
+  .hiddenMobile {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 90px;
+  }
+
+  .logo {
+    width: 100px;
+    height: auto;
+    padding-top: 20px;
+  }
+
+  .menuItem {
+    border-top: 3px solid white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-right: 40px;
+  }
+
+  a.active {
+    border-top: 3px solid #0065fc;
+    color: #0065fc;
+  }
+
+  a.signup {
+    border-top: 3px solid white;
+    color: #0065fc;
+    font-weight: 700;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+  }
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 950px) {
+  .header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 90px;
+  }
+
+  .logo {
+    width: 100px;
+    height: auto;
+    padding-top: 20px;
+  }
+
+  .menuItem {
+    border-top: 3px solid white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-right: 40px;
+  }
+
+  a.active {
+    border-top: 3px solid #0065fc;
+    color: #0065fc;
+  }
+
+  a.signup {
+    border-top: 3px solid white;
+    color: #0065fc;
+    font-weight: 700;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+  }
+  .hiddenMobile {
+    display: none;
+  }
+
+  .input-group {
+    width: 30%;
+  }
+
   .features-section {
     display: flex;
     flex-direction: row-reverse;
@@ -38,5 +173,10 @@
   .item-3 {
     grid-column: 3;
     grid-row: 1 / span 2;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }

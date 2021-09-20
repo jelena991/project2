@@ -80,6 +80,7 @@ a:visited {
   font-size: 11px;
 }
 
+/*
 @media (max-width: 480px) {
   .hidden {
     display: none;
@@ -95,5 +96,4 @@ a:visited {
 @media (min-width: 1025px) {
   .hiddenMobile {
     display: none;
-  }
-}
+  }*/
