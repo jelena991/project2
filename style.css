@@ -79,21 +79,3 @@ a:visited {
   color: #0065fc;
   font-size: 11px;
 }
-
-/*
-@media (max-width: 480px) {
-  .hidden {
-    display: none;
-  }
-}
-
-@media (max-width: 1024px) {
-  .hidden {
-    display: none;
-  }
-}
-
-@media (min-width: 1025px) {
-  .hiddenMobile {
-    display: none;
-  }*/

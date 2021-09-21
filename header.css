@@ -32,36 +32,3 @@ a.signup {
   color: #0065fc;
   font-weight: 700;
 }
-
-/* TABLET
-@media (min-width: 950px) {
-  .header {
-    display: flex;
-    width: 100%;
-    padding-top: 25px;
-    padding-bottom: 10px;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .logo {
-    width: 100px;
-    height: auto;
-  }
-
-  .menuItem {
-    border-bottom: 3px solid #f2f2f2;
-    flex: 1;
-    padding: 10px;
-  }
-
-  a.active {
-    border-bottom: 3px solid #0065fc;
-    color: #0065fc;
-  }
-
-  a.signup {
-    color: #0065fc;
-    font-weight: 700;
-  }
-} */

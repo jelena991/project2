@@ -11,6 +11,7 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  /*Header and Navbar*/
   .hiddenDesktop {
     display: none;
   }
@@ -19,20 +20,31 @@
     display: none;
   }
 
-  .popular-cards, .accommodation-cards {
+  /*Search bar*/
+
+  .input-group {
+    width: 60%;
+  }
+
+  /*Features Section Cards*/
+  .popular-cards,
+  .accommodation-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
 
   .card {
-    flex: 0 1 50%;
+    flex: 0 1 calc(50% - 10px);
   }
+
+  /*Activities Section Cards*/
 
   .activities-cards {
     grid-template-columns: 1fr 1fr;
-
   }
+
+  /*Footer*/
 
   footer {
     display: grid;
@@ -42,6 +54,8 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  /*Header and Navbar Responsivnes and Styling*/
+
   .hidden {
     display: contents;
   }
@@ -68,72 +82,48 @@
   }
 
   .menuItem {
-    border-top: 3px solid white;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 30px;
+    padding: 30px 20px 0 20px;
     margin-right: 40px;
+    border-bottom: none;
   }
 
   a.active {
     border-top: 3px solid #0065fc;
+    border-bottom: none;
     color: #0065fc;
   }
 
   a.signup {
-    border-top: 3px solid white;
+    border-bottom: none;
     color: #0065fc;
     font-weight: 700;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 30px;
+    padding: 30px 20px 0 20px;
   }
 
+  /*Search bar and Button Styling*/
+
+  .input-group {
+    max-width: 500px;
+  }
+
+  .input-group-icon-submit {
+    color: white;
+    width: 120px;
+    height: 50px;
+    border-radius: 0;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  .search-button-desktop {
+    font-size: 17px;
+  }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media (min-width: 950px) {
-  .header {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    height: 90px;
-  }
-
-  .logo {
-    width: 100px;
-    height: auto;
-    padding-top: 20px;
-  }
-
-  .menuItem {
-    border-top: 3px solid white;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 30px;
-    margin-right: 40px;
-  }
-
-  a.active {
-    border-top: 3px solid #0065fc;
-    color: #0065fc;
-  }
-
-  a.signup {
-    border-top: 3px solid white;
-    color: #0065fc;
-    font-weight: 700;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 30px;
-  }
-  .hiddenMobile {
-    display: none;
-  }
-
-  .input-group {
-    width: 30%;
-  }
-
+  /*Features Section Responsivnes and Styling*/
   .features-section {
     display: flex;
     flex-direction: row-reverse;
@@ -143,22 +133,21 @@
     min-width: 300px;
   }
 
+  .popular-cards {
+    flex-direction: column;
+  }
+
   .accommodations-section {
     background-color: #f2f2f2;
     padding: 15px;
     margin-right: 15px;
   }
 
-  .accommodation-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
   .card {
-    flex: 0 1 calc(33.33% - 1em);
+    flex: 0 1 calc(33.33% - 10px);
   }
 
+  /*Activites Section Responsivnes and Styling*/
   .activities-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -173,10 +162,5 @@
   .item-3 {
     grid-column: 3;
     grid-row: 1 / span 2;
-  }
-
-  footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
   }
 }
