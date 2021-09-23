@@ -27,36 +27,24 @@
     <title>Reservia</title>
   </head>
   <body>
-    <div class="hidden">
-      <!--Header-->
-      <header class="header container">
-        <a href="#">
-          <img src="css/img/logo/Reservia@3x.png" alt="" class="logo" />
-        </a>
-        <!--Nav-->
-        <nav class="navigation">
-          <a href="" class="menuItem active"> Accommodation </a>
-          <a href="" class="menuItem"> Activities </a>
-          <a href="#" class="signup">Sign up</a>
-        </nav>
-      </header>
-    </div>
-
-    <div class="hiddenMobile">
-      <!--Header MOBILE-->
-      <header class="header container">
-        <a href="#">
-          <img src="css/img/logo/Reservia@3x.png" alt="" class="logo" />
-        </a>
-        <a href="#" class="signup">Sign up</a>
-      </header>
-
-      <!--Nav MOBILE-->
-      <nav class="navigation">
-        <a href="" class="menuItem active"> Accommodation </a>
-        <a href="" class="menuItem"> Activities </a>
-      </nav>
-    </div>
+    <nav>
+      <ul class="navbar-items">
+        <li class="navbar-item">
+          <a href="#">
+            <img src="css/img/logo/Reservia@3x.png" alt="" class="logo" />
+          </a>
+        </li>
+        <li class="navbar-item signup">
+          <a class="navbar-link" href="">Sign up</a>
+        </li>
+        <li class="navbar-item menuItem ml-auto">
+          <a class="navbar-link" href="">Accommodations</a>
+        </li>
+        <li class="navbar-item menuItem order">
+          <a class="navbar-link" href="">Activities</a>
+        </li>
+      </ul>
+    </nav>
 
     <!--Search Section-->
     <section class="container">
@@ -74,7 +62,9 @@
             <button type="submit" class="hiddenMobile">
               <i class="fa fa-search"></i>
             </button>
-            <button type="submit" class="hidden search-button-desktop">Search</button>
+            <button type="submit" class="hiddenDesktop search-button-desktop">
+              Search
+            </button>
           </div>
         </div>
       </div>
@@ -344,48 +334,23 @@
           <h3>Activities in Marseille</h3>
         </div>
         <div class="activities-cards">
-          <div class="item-1">
-            <a href="#" class="card">
-              <div class="card-3">
-                <img
-                  src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
-                  alt=""
-                />
-                <div class="card-text">
-                  <h1>Morning Sun Hotel</h1>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <a href="#" class="card">
+          <a href="#" class="card card-3-responsive">
             <div class="card-3">
               <img
                 src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                 alt=""
               />
+
               <div class="card-text">
                 <h1>Morning Sun Hotel</h1>
               </div>
             </div>
           </a>
-          <div class="item-3">
-            <a href="#" class="card">
-              <div class="card-3">
-                <img
-                  src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
-                  alt=""
-                />
-                <div class="card-text">
-                  <h1>Morning Sun Hotel</h1>
-                </div>
-              </div>
-            </a>
-          </div>
 
-          <a href="#" class="card">
+          <a href="#" class="card card-3-responsive">
             <div class="card-3">
               <img
+                class="thumb"
                 src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                 alt=""
               />
@@ -401,18 +366,47 @@
                 src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                 alt=""
               />
+
               <div class="card-text">
                 <h1>Morning Sun Hotel</h1>
               </div>
             </div>
           </a>
 
-          <a href="#" class="card">
+          <a href="#" class="card card-3-responsive">
+            <div class="card-3">
+              <img
+                class="thumb"
+                src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                alt=""
+              />
+
+              <div class="card-text">
+                <h1>Morning Sun Hotel</h1>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="card card-3-responsive">
             <div class="card-3">
               <img
                 src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                 alt=""
               />
+
+              <div class="card-text">
+                <h1>Morning Sun Hotel</h1>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="card card-3-responsive">
+            <div class="card-3">
+              <img
+                src="css/img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                alt=""
+              />
+
               <div class="card-text">
                 <h1>Morning Sun Hotel</h1>
               </div>
