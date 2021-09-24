@@ -31,8 +31,7 @@ a:visited {
 }
 
 .container {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px 0 20px;
 }
 
 .grey-background {
@@ -77,5 +76,10 @@ a:visited {
 
 .card-rating {
   color: #0065fc;
+  font-size: 11px;
+}
+
+.card-rating .unchecked {
+  color: #c3c0c0;
   font-size: 11px;
 }
