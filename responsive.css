@@ -87,7 +87,7 @@
   }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+/* Large devices (laptops/desktops, 800px and up) */
 @media (min-width: 800px) {
   nav {
     padding: 0 30px 0 30px;
@@ -144,9 +144,9 @@
     grid-column: 3;
     grid-row: 1 / span 2;
   }
-  @media (min-width: 1201px) {
-    .card {
-      flex: 0 1 calc(33.33% - 10px);
-    }
+}
+@media (min-width: 1201px) {
+  .card {
+    flex: 0 1 calc(33.33% - 10px);
   }
 }

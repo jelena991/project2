@@ -1,3 +1,5 @@
+/*Activities Section Styling*/
+
 .activities-section {
   padding: 10px;
   margin-bottom: 10px;
@@ -12,6 +14,8 @@
   padding: 25px 5px 30px 5px;
   font-size: 20px;
 }
+
+/*Custom Styling Activities Cards*/
 
 .card-3 {
   flex-basis: 100%;

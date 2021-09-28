@@ -1,3 +1,5 @@
+/*Most Popular Section Styling*/
+
 .popular-section {
   padding: 30px;
 }
@@ -9,6 +11,8 @@
   padding: 25px 5px 30px 5px;
   font-size: 20px;
 }
+
+/*Custom Styling Most Popular Cards*/
 
 .card-1 {
   display: flex;
