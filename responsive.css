@@ -1,6 +1,6 @@
-/*Navigation for devices under 576px*/
+/*Navigation for devices under 599px*/
 
-@media (max-width: 600px) {
+@media (max-width: 599px) {
   .hiddenDesktop {
     display: none;
   }
@@ -40,7 +40,7 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 600px) {
   /*Search bar*/
   .hiddenMobile {
     display: none;
@@ -88,7 +88,7 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media (min-width: 880px) {
+@media (min-width: 800px) {
   nav {
     padding: 0 30px 0 30px;
   }
@@ -97,25 +97,7 @@
     padding: 0 50px 0 50px;
   }
   /*Features Section Responsivnes and Styling*/
-  .features-section {
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 40px;
-    padding: 0 50px ;
-    
-  }
 
-  .popular-section {
-    min-width: 300px;
-  }
-
-  .popular-cards {
-    flex-direction: column;
-  }
-
-  .accommodations-section {
-    background-color: #f2f2f2;
-  }
   footer {
     padding-left: 50px;
   }
@@ -124,12 +106,23 @@
 @media (min-width: 992px) {
   /*Activites Section Responsivnes and Styling*/
 
-  .accommodations-section {
-    background-color: #f2f2f2;
+  .features-section {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+    padding: 0 50px;
   }
 
-  .card {
-    flex: 0 1 calc(33.33% - 10px);
+  .popular-section {
+    min-width: 365px;
+  }
+
+  .popular-cards {
+    flex-direction: column;
+  }
+
+  .accommodations-section {
+    background-color: #f2f2f2;
   }
 
   .activities-cards {
@@ -150,5 +143,10 @@
   .card-3-responsive:nth-child(4) {
     grid-column: 3;
     grid-row: 1 / span 2;
+  }
+  @media (min-width: 1201px) {
+    .card {
+      flex: 0 1 calc(33.33% - 10px);
+    }
   }
 }
