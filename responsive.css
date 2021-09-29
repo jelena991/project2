@@ -1,7 +1,7 @@
 /*Navigation for devices under 599px*/
 
 @media (max-width: 599px) {
-  .hiddenDesktop {
+  .hidden-mobile {
     display: none;
   }
 
@@ -27,6 +27,8 @@
     order: 0;
   }
 
+
+
   .menuItem {
     border-bottom: 3px solid #f2f2f2;
     padding: 15px;
@@ -42,24 +44,19 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   /*Search bar*/
-  .hiddenMobile {
+  i.fa-search {
     display: none;
   }
 
-  .input-group-icon-submit {
+  .input-group-icon-submit,
+  button {
     color: white;
-    width: 120px;
-    height: 50px;
+    width: 60px;
     border-radius: 0;
     border-top-right-radius: 25%;
     border-bottom-right-radius: 25%;
-    text-align: center;
-    line-height: 50px;
   }
 
-  .search-button-desktop {
-    font-size: 17px;
-  }
   .popular-cards,
   .accommodation-cards {
     display: flex;
@@ -131,13 +128,12 @@
     grid-gap: 20px;
   }
 
-  .card-3-responsive:nth-child(2) {
+  .card-3-responsive:nth-child(1) {
     grid-row: 1 / span 2;
   }
 
-  img.thumb {
-    object-fit: cover;
-    height: 84%;
+  img.thumb{
+    height: 100%;
   }
 
   .card-3-responsive:nth-child(4) {
