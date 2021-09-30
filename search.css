@@ -29,6 +29,9 @@
   text-align: center;
 }
 
+.input-group-icon-submit {
+  margin-left: -10px;
+}
 .input-group-icon-submit,
 button {
   background: #0065fc;
@@ -37,12 +40,11 @@ button {
   height: 50px;
   border: none;
   border-radius: 25%;
-  margin-left: -10px;
   cursor: pointer;
 }
 
 .input-group-area {
-  width: 100%;
+  width: 200px;
 }
 
 .input-group input {

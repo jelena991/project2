@@ -46,9 +46,8 @@ a:visited {
   box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
   background-color: white;
   border-radius: 25px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   display: flex;
-  transition: all 0.1s ease-in;
 }
 
 .card-text {
