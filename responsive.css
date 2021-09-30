@@ -5,12 +5,19 @@
     display: none;
   }
 
+  nav {
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+
   .navbar-items {
     flex-wrap: wrap;
     align-items: center;
   }
   .navbar-item {
     width: 50%;
+    
   }
   .navbar-item:nth-child(2) {
     text-align: right;
@@ -21,18 +28,29 @@
     text-align: center;
   }
 
+  .logo {
+    padding-left: 20px;
+    padding-bottom: 15px;
+  }
+
   .signup {
     color: #0065fc;
     font-weight: 700;
     order: 0;
+    padding-right: 20px;
+    padding-bottom: 15px;
   }
 
-  .menuItem {
+  .menuItem:hover {
+    border: none;
+  }
+
+  .mobile-line {
     border-bottom: 3px solid #f2f2f2;
     padding: 15px;
   }
 
-  .menuItem:hover {
+  .mobile-line:hover {
     border-bottom: 3px solid #0065fc;
     border-top: none;
     padding: 15px;
