@@ -33,7 +33,7 @@
   }
 
   li:nth-child(2){
-    
+    color: #0065fc;
     font-weight: 700;
     order: 0;
     padding-right: 20px;
