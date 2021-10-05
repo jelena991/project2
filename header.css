@@ -26,9 +26,12 @@ ul {
 }
 
 li:nth-child(2) {
+  order: 1;
+}
+
+a.signup {
   color: #0065fc;
   font-weight: 700;
-  order: 1;
 }
 
 .menuItem {
