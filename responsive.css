@@ -38,16 +38,16 @@
     padding-bottom: 15px;
   }
 
-  .menuItem:hover {
+  .menu-item:hover {
     border: none;
   }
 
-  .mobile-line {
+  .mobile-border {
     border-bottom: 3px solid #f2f2f2;
     padding: 15px;
   }
 
-  .mobile-line:hover {
+  .mobile-border:hover {
     border-bottom: 3px solid #0065fc;
     border-top: none;
     padding: 15px;

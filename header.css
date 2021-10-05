@@ -34,11 +34,11 @@ a.signup {
   font-weight: 700;
 }
 
-.menuItem {
+.menu-item {
   padding: 32px;
 }
 
-.menuItem:hover {
+.menu-item:hover {
   border-top: 3px solid #0065fc;
   color: #0065fc;
 }
