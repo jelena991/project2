@@ -8,7 +8,6 @@ body {
   margin: 0;
   font-family: "Raleway", sans-serif;
   width: 100%;
-  min-height: 100vh;
 }
 
 img {
@@ -30,10 +29,6 @@ a:visited {
 
 .flexColumn {
   flex-direction: column;
-}
-
-.flexRow {
-  flex-direction: row;
 }
 
 /*GENERAL CARD STYLING*/
@@ -437,8 +432,7 @@ footer {
   i.fa-search {
     display: none;
   }
-  .input-group-icon-submit,
-  ::-webkit-search-cancel-button {
+  .input-group-icon-submit {
     color: #fff;
     width: 60px;
     border-radius: 0;
